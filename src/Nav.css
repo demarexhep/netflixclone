@@ -1,0 +1,42 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 150px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.nav_black {
+  background-color: rgb(0, 0, 0);
+}
+.nav_logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.ahref-nav {
+  font-size: 1.04rem;
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  color: rgb(185, 13, 13);
+  padding: 0 15px;
+  font-weight: bold;
+}
+
+.ahref-nav:hover {
+  color: white;
+  font-weight: bold;
+}
